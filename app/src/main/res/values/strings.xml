@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="title_home">Alarm</string>
+    <string name="title_dashboard">Stop Watch</string>
+    <string name="title_notifications">Timer</string>
+</resources>

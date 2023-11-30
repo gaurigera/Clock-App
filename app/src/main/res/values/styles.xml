@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="RoundToggleButtonStyle" parent="@android:style/Widget.Button.Toggle">
+    <item name="android:background">@drawable/toggle_button_round</item>
+    <item name="android:padding">16dp</item>
+</style>
+</resources>

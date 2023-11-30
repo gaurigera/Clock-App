@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/chooseAlarmFragment"
+        android:name="com.example.alarmclock.ui.AlarmHome.ChooseAlarm"
+        android:label="Choose Alarm"
+        tools:layout="@layout/fragment_choose_alarm">
+        <action
+            android:id="@+id/action_ca_to_home_fragment"
+            app:destination="@id/navigation_home"
+            >
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.alarmclock.ui.AlarmHome.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+    <action
+        android:id="@+id/action_home_fragment_to_ca_fragment"
+        app:destination="@id/chooseAlarmFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_stopwatch"
+        android:name="com.example.alarmclock.ui.Stopwatch.StopwatchFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_stopwatch" />
+
+    <fragment
+        android:id="@+id/navigation_timer"
+        android:name="com.example.alarmclock.ui.Timer.TimerFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_timer" />
+</navigation>

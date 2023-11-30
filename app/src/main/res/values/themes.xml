@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AlarmClock" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/theme_color</item>
+        <item name="colorPrimaryVariant">@color/darker_color</item>
+        <item name="colorOnPrimary">@color/material_dynamic_neutral_variant10</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darker_color</item>
+        <item name="colorSecondaryVariant">@color/darker_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/theme_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
