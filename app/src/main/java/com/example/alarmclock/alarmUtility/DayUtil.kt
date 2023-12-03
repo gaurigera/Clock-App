@@ -1,4 +1,4 @@
-package com.example.alarmclock.AlarmUtility
+package com.example.alarmclock.alarmUtility
 
 import com.example.alarmclock.data.Alarm
 import java.lang.StringBuilder

@@ -8,16 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.AlarmHome.HomeFragment" >
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/constraint_layout"
-        >
-
         <TextView
             android:id="@+id/numberOfAlarms"
             android:layout_width="match_parent"
@@ -25,15 +15,17 @@
             android:layout_margin="60dp"
             android:gravity="center"
             android:text="All Alarms are off"
-            android:textSize="20sp" />
-    </androidx.cardview.widget.CardView>
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/constraint_layout"
+            android:layout_marginBottom="@dimen/cardview_default_elevation"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
-        app:layout_constraintTop_toBottomOf="@id/cardView"
+        app:layout_constraintTop_toBottomOf="@id/numberOfAlarms"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         >

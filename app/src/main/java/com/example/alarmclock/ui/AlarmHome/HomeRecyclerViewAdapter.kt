@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.alarmclock.data.Alarm
 import com.example.alarmclock.databinding.SingleAlarmBinding
-import com.example.alarmclock.AlarmUtility.DayUtil
+import com.example.alarmclock.alarmUtility.DayUtil
 
 class HomeRecyclerViewAdapter(var alarms: MutableList<Alarm>)
     : RecyclerView.Adapter<HomeRecyclerViewAdapter.ViewHolder>() {

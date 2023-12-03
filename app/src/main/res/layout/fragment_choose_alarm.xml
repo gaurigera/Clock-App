@@ -27,81 +27,79 @@
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
         >
 
-                <ToggleButton
-                    android:id = "@+id/Mon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="M"
-                    android:textOff="M"
-                    style="@style/RoundToggleButtonStyle"
-                    ></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Mon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="M"
+            android:textOff="M"
+            style="@style/RoundToggleButtonStyle" />
 
-                <ToggleButton
-                    android:id = "@+id/Tue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="T"
-                    android:textOff="T"
-                    style="@style/RoundToggleButtonStyle"
-                    ></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Tue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="T"
+            android:textOff="T"
+            style="@style/RoundToggleButtonStyle" />
 
-                <ToggleButton
-                    android:id = "@+id/Wed"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="W"
-                    android:textOff="W"
-                    style="@style/RoundToggleButtonStyle"></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Wed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="W"
+            android:textOff="W"
+            style="@style/RoundToggleButtonStyle" />
 
-                <ToggleButton
-                    android:id = "@+id/Thurs"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="T"
-                    android:textOff="T"
-                    style="@style/RoundToggleButtonStyle"></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Thurs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="T"
+            android:textOff="T"
+            style="@style/RoundToggleButtonStyle" />
 
-                <ToggleButton
-                    android:id = "@+id/Fri"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="F"
-                    android:textOff="F"
-                    style="@style/RoundToggleButtonStyle"></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Fri"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="F"
+            android:textOff="F"
+            style="@style/RoundToggleButtonStyle" />
 
-                <ToggleButton
-                    android:id = "@+id/Sat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="S"
-                    android:textOff="S"
-                    style="@style/RoundToggleButtonStyle"></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Sat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="S"
+            android:textOff="S"
+            style="@style/RoundToggleButtonStyle" />
 
-                <ToggleButton
-                    android:id = "@+id/Sun"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textOn="S"
-                    android:textOff="S"
-                    style="@style/RoundToggleButtonStyle"></ToggleButton>
+        <ToggleButton
+            android:id="@+id/Sun"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="S"
+            android:textOff="S"
+            style="@style/RoundToggleButtonStyle" />
             </LinearLayout>
 
-            <EditText
-                android:id="@+id/alarm_name"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Add Alarm Name"
-                android:padding="15dp"
-                app:layout_constraintLeft_toLeftOf="@+id/chooseAlarmFragment"
-                app:layout_constraintTop_toBottomOf="@id/seven_buttons"></EditText>
+    <EditText
+        android:id="@+id/alarm_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add Alarm Name"
+        android:padding="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/chooseAlarmFragment"
+        app:layout_constraintTop_toBottomOf="@id/seven_buttons" />
             <LinearLayout
                 android:id="@+id/additional_settings"
                 android:layout_width="match_parent"
